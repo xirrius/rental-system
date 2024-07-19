@@ -1,0 +1,123 @@
+{
+  "products": [
+    {
+      "ownerId": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6I…jcwfQ.6tvs5vpLrGq8eGoHDK4e3r1Y_3aKF9sYxTU0gB_o7Pw",
+      "name": "Mountain Bike",
+      "category": "Bicycles",
+      "description": "A sturdy mountain bike suitable for off-road trails.",
+      "price_per_day": 15.0,
+      "availability_status": "available",
+      "image_url": "https://example.com/images/mountain_bike.jpg",
+      "specifications": ""
+    },
+    {
+      "name": "Electric Scooter",
+      "category": "Scooters",
+      "description": "A fast and convenient electric scooter for city travel.",
+      "price_per_day": 20.0,
+      "availability_status": "available",
+      "image_url": "https://example.com/images/electric_scooter.jpg",
+      "specifications": ""
+    },
+    {
+      "ownerId": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6I…jcwfQ.6tvs5vpLrGq8eGoHDK4e3r1Y_3aKF9sYxTU0gB_o7Pw",
+      "name": "Tent",
+      "category": "Camping Gear",
+      "description": "A spacious tent for up to 4 people, perfect for camping trips.",
+      "price_per_day": 10.0,
+      "availability_status": "rented",
+      "image_url": "https://example.com/images/tent.jpg",
+      "specifications": ""
+    },
+    {
+      "ownerId": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6I…jcwfQ.6tvs5vpLrGq8eGoHDK4e3r1Y_3aKF9sYxTU0gB_o7Pw",
+      "name": "Kayak",
+      "category": "Water Sports",
+      "description": "A lightweight kayak for enjoying the lake or river.",
+      "price_per_day": 25.0,
+      "availability_status": "available",
+      "image_url": "https://example.com/images/kayak.jpg",
+      "specifications": ""
+    },
+    {
+      "ownerId": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6I…jcwfQ.6tvs5vpLrGq8eGoHDK4e3r1Y_3aKF9sYxTU0gB_o7Pw",
+      "name": "Portable Grill",
+      "category": "Camping Gear",
+      "description": "A portable grill for outdoor cooking and barbecues.",
+      "price_per_day": 8.0,
+      "availability_status": "available",
+      "image_url": "https://example.com/images/portable_grill.jpg",
+      "specifications": ""
+    },
+    {
+      "ownerId": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6I…jcwfQ.6tvs5vpLrGq8eGoHDK4e3r1Y_3aKF9sYxTU0gB_o7Pw",
+      "name": "Projector",
+      "category": "Electronics",
+      "description": "A high-resolution projector suitable for presentations and movie nights.",
+      "price_per_day": 30.0,
+      "availability_status": "available",
+      "image_url": "https://example.com/images/projector.jpg",
+      "specifications": ""
+    },
+    {
+      "ownerId": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6I…jcwfQ.6tvs5vpLrGq8eGoHDK4e3r1Y_3aKF9sYxTU0gB_o7Pw",
+      "name": "Camping Chair",
+      "category": "Camping Gear",
+      "description": "A comfortable folding chair for camping and outdoor events.",
+      "price_per_day": 5.0,
+      "availability_status": "available",
+      "image_url": "https://example.com/images/camping_chair.jpg",
+      "specifications": ""
+    },
+    {
+      "ownerId": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6I…jcwfQ.6tvs5vpLrGq8eGoHDK4e3r1Y_3aKF9sYxTU0gB_o7Pw",
+      "name": "GoPro Camera",
+      "category": "Electronics",
+      "description": "A waterproof action camera for capturing adventures.",
+      "price_per_day": 40.0,
+      "availability_status": "available",
+      "image_url": "https://example.com/images/gopro_camera.jpg",
+      "specifications": ""
+    },
+    {
+      "ownerId": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6I…jcwfQ.6tvs5vpLrGq8eGoHDK4e3r1Y_3aKF9sYxTU0gB_o7Pw",
+      "name": "Snowboard",
+      "category": "Winter Sports",
+      "description": "A high-quality snowboard for winter sports enthusiasts.",
+      "price_per_day": 35.0,
+      "availability_status": "rented",
+      "image_url": "https://example.com/images/snowboard.jpg",
+      "specifications": ""
+    },
+    {
+      "ownerId": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6I…jcwfQ.6tvs5vpLrGq8eGoHDK4e3r1Y_3aKF9sYxTU0gB_o7Pw",
+      "name": "Power Drill",
+      "category": "Tools",
+      "description": "A powerful cordless drill for home improvement projects.",
+      "price_per_day": 12.0,
+      "availability_status": "available",
+      "image_url": "https://example.com/images/power_drill.jpg",
+      "specifications": ""
+    },
+    {
+      "ownerId": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6I…jcwfQ.6tvs5vpLrGq8eGoHDK4e3r1Y_3aKF9sYxTU0gB_o7Pw",
+      "name": "Fishing Rod",
+      "category": "Outdoor Gear",
+      "description": "A durable fishing rod for both freshwater and saltwater fishing.",
+      "price_per_day": 7.0,
+      "availability_status": "available",
+      "image_url": "https://example.com/images/fishing_rod.jpg",
+      "specifications": ""
+    },
+    {
+      "ownerId": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6I…jcwfQ.6tvs5vpLrGq8eGoHDK4e3r1Y_3aKF9sYxTU0gB_o7Pw",
+      "name": "DJ Equipment",
+      "category": "Electronics",
+      "description": "A complete DJ setup for parties and events.",
+      "price_per_day": 100.0,
+      "availability_status": "rented",
+      "image_url": "https://example.com/images/dj_equipment.jpg",
+      "specifications": ""
+    }
+  ]
+}

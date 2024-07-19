@@ -1,0 +1,27 @@
+nav {
+    background-color: blue;
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    span {
+        font-weight: 600;
+        font-size: 32px;
+        margin-left: 12px;
+        /* font-family: 'Courier New', Courier, monospace; */
+    }
+    li {
+        list-style: none;
+        float: right;
+        padding-top: 2px;
+        a {
+            margin-right:20px;
+            font-size: 24px;
+            font-weight: 400;
+        }
+    }
+}
+
+.profile {
+    float:right;
+    margin-right: 20px;
+}
