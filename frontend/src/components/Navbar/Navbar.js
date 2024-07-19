@@ -58,7 +58,9 @@ const Navbar = () => {
 
   const searchItem = async () => {
     try {
-      const res = await fetch(`http://localhost:8000/search-product?query=${searchValue}`)
+      const res = await fetch(
+        `https://rental-system.onrender.com/search-product?query=${searchValue}`
+      );
       const data = await res.json()
       console.log(data);
     } catch (error) {

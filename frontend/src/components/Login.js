@@ -21,7 +21,7 @@ export default function Login() {
       console.log(`All fields are required.`);
     }
     try {
-      const res = await fetch(`http://localhost:8000/user/login`, {
+      const res = await fetch(`https://rental-system.onrender.com/user/login`, {
         headers: {
           "Content-Type": "application/json",
         },

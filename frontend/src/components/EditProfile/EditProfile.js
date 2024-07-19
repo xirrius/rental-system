@@ -17,16 +17,19 @@ const handleSubmit = async (e) => {
     return
   }
   try {
-    const res = await fetch(`http://localhost:8000/edit-profile`, {
+    const res = await fetch(`https://rental-system.onrender.com/edit-profile`, {
       headers: {
-        'Content-Type': 'application/json',
-        'Authorization': 'token ' + userInfo.token
+        "Content-Type": "application/json",
+        Authorization: "token " + userInfo.token,
       },
-      method: 'PATCH',
+      method: "PATCH",
       body: JSON.stringify({
-        name, address, contact, profile
-      })
-    })
+        name,
+        address,
+        contact,
+        profile,
+      }),
+    });
     navigate('/profile')
   } catch (error) {
     console.log(`Error ${error}`);

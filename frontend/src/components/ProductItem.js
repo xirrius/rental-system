@@ -24,18 +24,18 @@ export default function ProductItem({ item }) {
 
   const addItemToRent = async () => {
     try {
-    const res = await fetch(`http://localhost:8000/rent`, {
+    const res = await fetch(`https://rental-system.onrender.com/rent`, {
       headers: {
-        'Content-Type': 'application/json',
-        'Authorization': 'token ' + userInfo.token
+        "Content-Type": "application/json",
+        Authorization: "token " + userInfo.token,
       },
-      method: 'POST',
+      method: "POST",
       body: JSON.stringify({
-        productId:item._id,
+        productId: item._id,
         productName: item.name,
-        pricePerDay:item.price_per_day,
-      })
-    })
+        pricePerDay: item.price_per_day,
+      }),
+    });
     // navigate('/profile')
   } catch (error) {
     console.log(`Error ${error}`);

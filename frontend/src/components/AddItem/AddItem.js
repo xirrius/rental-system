@@ -34,22 +34,25 @@ const AddItem = () => {
     } else {
       console.log(`Product is being added.`);
       try {
-        const res = await fetch(`http://localhost:8000/product/add-item`, {
-          headers: {
-            "Content-Type": "application/json",
-            'Authorization': "token " + userInfo.token,
-          },
-          method: "POST",
-          body: JSON.stringify({
-            name,
-            category,
-            description,
-            image_url: image,
-            price_per_day: price,
-            availability_status: availability,
-            // ownerId: userInfo.user._id,
-          }),
-        });
+        const res = await fetch(
+          `https://rental-system.onrender.com/product/add-item`,
+          {
+            headers: {
+              "Content-Type": "application/json",
+              Authorization: "token " + userInfo.token,
+            },
+            method: "POST",
+            body: JSON.stringify({
+              name,
+              category,
+              description,
+              image_url: image,
+              price_per_day: price,
+              availability_status: availability,
+              // ownerId: userInfo.user._id,
+            }),
+          }
+        );
         const data = await res.json();
         console.log(`Product added successfully.`, data);
         navigate("/");

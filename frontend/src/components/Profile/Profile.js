@@ -14,7 +14,9 @@ const ProfilePage = () => {
     const fetchData = async () => {
       const query = id !== undefined ? id : "none";
       console.log("query ", query);
-      console.log(`http://localhost:8000/user-product?query=${query}`);
+      console.log(
+        `https://rental-system.onrender.com/user-product?query=${query}`
+      );
       const res = await fetch(
         `http://localhost:8000/user-product?query=${query}`,
         {
@@ -35,7 +37,7 @@ const ProfilePage = () => {
 
   useEffect(() => {
     const fetchRentData = async () => {
-      const res = await fetch(`http://localhost:8000/user-rent`, {
+      const res = await fetch(`https://rental-system.onrender.com/user-rent`, {
         headers: {
           "Content-Type": "application/json",
           Authorization: "token " + userInfo.token,
@@ -55,7 +57,7 @@ const ProfilePage = () => {
       const query = id !== undefined ? id : "none";
       console.log("query ", query);
       const res = await fetch(
-        `http://localhost:8000/user-profile?query=${query}`,
+        `https://rental-system.onrender.com/user-profile?query=${query}`,
         {
           headers: {
             "Content-Type": "application/json",

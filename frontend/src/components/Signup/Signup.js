@@ -32,13 +32,16 @@ export default function Signup() {
     }
 
     try {
-      const res = await fetch(`http://localhost:8000/user/register`, {
-        headers: {
-          "Content-Type": "application/json",
-        },
-        method: "POST",
-        body: JSON.stringify({ name, email, password, role }),
-      });
+      const res = await fetch(
+        `https://rental-system.onrender.com/user/register`,
+        {
+          headers: {
+            "Content-Type": "application/json",
+          },
+          method: "POST",
+          body: JSON.stringify({ name, email, password, role }),
+        }
+      );
       console.log(res.ok, res.status);
       if (res.status === 201) {
         navigate("/login");

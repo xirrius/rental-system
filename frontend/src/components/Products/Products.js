@@ -8,7 +8,7 @@ const Products = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch("http://localhost:8000/product");
+      const res = await fetch("https://rental-system.onrender.com/product");
       const data = await res.json()
       if(userInfo.email) {
         const filteredData = data.products.filter((item) => item.ownerId !== userInfo.user.email)
