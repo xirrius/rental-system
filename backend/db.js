@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const db = mongoose
-  .connect("mongodb://127.0.0.1:27017/dbrental")
+  .connect(process.env.MONGO_URI)
   .then((res) => {
     console.log(`Database connected successfully.`);
   })
